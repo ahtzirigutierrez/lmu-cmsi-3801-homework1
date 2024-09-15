@@ -2,15 +2,17 @@
 
 Welcome!
 
-## Instructions
+## Description
+Author: Ahtziri Gutierrez
 
-Fork this repo for your homework submissions. Make sure your fork has a nice, descriptive name. Leaving the name as “lmu-cmsi-3801-template” is misleading, and keeping it indicates you are not taking sufficient pride in your work. After forking, **please replace the contents of this readme** file with information about your submissions, including the name(s) of the students, and a description of each assignment (as they are turned in).
+**Homework 1 (Scripting)**: Lua, Python, JavaScript
 
-Don’t bother with notes to the graders. Such notes go into your BrightSpace submissions, not your GitHub repository.
+- Q1 (first then lower case): This functions takes in string 'a' and predicate 'p' as input and returns the first string of a that satisfies p in lowercase letters. If there's no element matching this, then it returns nil for Lua, undefined for JavaScript, or None for Python
+- Q2 (powers generator): This function is a power generator that calculates successive powers of base b going up to a given limit
+- Q3 (say): This function passes in multiple strings and then returns them separated by a single space
+- Q4 (meaningful line count): This function accepts a file name and returns the number of lines from the file that aren't empty, made up of whitespace, or whose first character is a '#'
+- Q5 (Quaternion): This problem, taking the form of a JavaScript or Python class, or a table in Lua, constructs, adds, multiplies, obtains coefficents, computers the conjugate, supports equality, and produces a string. 
 
-Your homework submissions will consist of programs in the following languages. To keep things simple, there is a separate folder for each language.
-
-- **Homework 1 (Scripting)**: Lua, Python, JavaScript
 - **Homework 2 (Enterprise)**: Java, Kotlin, Swift
 - **Homework 3 (Theory)**: TypeScript, OCaml, Haskell
 - **Homework 4 (Systems)**: C, C++, Rust
