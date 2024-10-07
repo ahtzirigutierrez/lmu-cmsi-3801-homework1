@@ -14,7 +14,7 @@ Author: Ahtziri Gutierrez
 - Q4 (meaningful line count): This function accepts a file name and returns the number of lines from the file that aren't empty, made up of whitespace, or whose first character is a '#'
 - Q5 (Quaternion): This problem, taking the form of a JavaScript or Python class, or a table in Lua, constructs, adds, multiplies, obtains coefficents, computers the conjugate, supports equality, and produces a string. 
 
-- **Homework 2 (Enterprise)**: Java, Kotlin, Swift
+**Homework 2 (Enterprise)**: Java, Kotlin, Swift
 
 - Q1 (first then lower case): This function takes in either a list for Java/Kotlin or an array for Swift with strings 'a' and predicate 'p,' returning the lowercased version of the first element of a that satisfies p.
 - Q2 (say): This function takes in strings and adds them to a chain, returning the accumulated string when 'phrase' is used. 
