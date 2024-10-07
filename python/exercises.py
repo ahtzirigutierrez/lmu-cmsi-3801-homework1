@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 from collections.abc import Callable
 
-
 def change(amount: int) -> dict[int, int]:
     if not isinstance(amount, int):
         raise TypeError('Amount must be an integer')
@@ -20,7 +19,6 @@ def first_then_lower_case(strings, predicate, /):
             return string.lower()
     return None
 
-
 # Write your powers generator here
 def powers_generator(base: int, limit: int):
     power = 1
@@ -37,7 +35,6 @@ try:
 except StopIteration:
     print("No more values")
 
-
 # Write your say function here
 def say(word = None):
     string = []
@@ -53,10 +50,7 @@ def say(word = None):
     string.append(word)
     return chain
 
-
 # Write your line count function here
-# NOT empty, entirely whitepace, or whose first char is #
-
 def meaningful_line_count(fileName = None):
     if fileName is not None:
         with open(fileName, 'r') as file:
@@ -69,7 +63,6 @@ def meaningful_line_count(fileName = None):
         print("No such file")
         return FileNotFoundError
     
-    
 # Write your Quaternion class here
 @dataclass(frozen=True)
 class Quaternion:
@@ -81,13 +74,12 @@ class Quaternion:
     @property
     def conjugate(self) -> str:
         return Quaternion(self.a, (-1*self.b), (-1*self.c), (-1*self.d))
-        #return None
     
     @property
     def coefficients(self):
         return (self.a, self.b, self.c, self.d)
 
-    def __add__(self, q: "Quaternion"): # -> 'Quaternion':
+    def __add__(self, q: "Quaternion"): 
         return Quaternion( 
             self.a + q.a,
             self.b + q.b,
@@ -95,8 +87,7 @@ class Quaternion:
             self.d + q.d,
         )
     
-    def __mul__(self, q: "Quaternion"): # -> "Quaternion":
-
+    def __mul__(self, q: "Quaternion"): 
         a = self.a * q.a - self.b * q.b - self.c * q.c - self.d * q.d
         b = self.a * q.b + self.b * q.a + self.c * q.d - self.d * q.c
         c = self.a * q.c - self.b * q.d + self.c * q.a + self.d * q.b
@@ -151,5 +142,4 @@ class Quaternion:
             else:
                 string += f"{self.d}k"
         return string or "0"
-
     

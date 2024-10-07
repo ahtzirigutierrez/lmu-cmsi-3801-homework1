@@ -5,6 +5,7 @@ Welcome!
 ## Description
 Author: Ahtziri Gutierrez
 
+
 **Homework 1 (Scripting)**: Lua, Python, JavaScript
 
 - Q1 (first then lower case): This functions takes in string 'a' and predicate 'p' as input and returns the first string of a that satisfies p in lowercase letters. If there's no element matching this, then it returns nil for Lua, undefined for JavaScript, or None for Python
@@ -14,11 +15,17 @@ Author: Ahtziri Gutierrez
 - Q5 (Quaternion): This problem, taking the form of a JavaScript or Python class, or a table in Lua, constructs, adds, multiplies, obtains coefficents, computers the conjugate, supports equality, and produces a string. 
 
 - **Homework 2 (Enterprise)**: Java, Kotlin, Swift
+
+- Q1 (first then lower case): This function takes in either a list for Java/Kotlin or an array for Swift with strings 'a' and predicate 'p,' returning the lowercased version of the first element of a that satisfies p.
+- Q2 (say): This function takes in strings and adds them to a chain, returning the accumulated string when 'phrase' is used. 
+- Q3 (meaningful line count): This function accepts a filename and returns the number of lines that are not empty, made up of whitespace, or contain a '#' first character. For Java and Kotlin, IOException was used and for Swift, a Result object was returned. 
+- Q4 (Quaternion): This problem, using either a Java record, Kotlin data class, or Swift struct, contructed, added, multiplied, returned a coefficients array, returned the conjugate, and produced a string representation. 
+- Q5 (binary search tree): This problem used a sealed class/interface for Java and Kotlin, and an indirect enum for Swift. It supported an element count, insertion, and lookup of nodes. 
+
 - **Homework 3 (Theory)**: TypeScript, OCaml, Haskell
 - **Homework 4 (Systems)**: C, C++, Rust
 - **Homework 5 (Concurrency)**: Go
 
-At each homework deadline, the graders will clone your repo and run the tests. I will be inspecting the source code, grading your work on style, clarity, and appropriate use of language idioms. Do not throw away points in these areas: **use code formatters and linters**. Please consider it a moral obligation to use these tools. Not doing so is a violation of professional ethics. _You must respect the naming, capitalization, formatting, spacing, and indentation conventions of each language_.
 
 ## The Test Suites
 
