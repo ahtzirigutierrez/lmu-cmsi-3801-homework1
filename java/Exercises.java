@@ -43,7 +43,7 @@ public class Exercises {
     } 
   
 
-    // Write your line count function here, TRIM
+    
     public static int meaningfulLineCount(String filename) throws IOException {
         try (var reader = new BufferedReader(new FileReader(filename))){
             return (int) reader.lines()

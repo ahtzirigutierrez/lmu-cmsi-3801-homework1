@@ -23,6 +23,8 @@ Author: Ahtziri Gutierrez
 - Q5 (binary search tree): This problem used a sealed class/interface for Java and Kotlin, and an indirect enum for Swift. It supported an element count, insertion, and lookup of nodes. 
 
 - **Homework 3 (Theory)**: TypeScript, OCaml, Haskell
+
+
 - **Homework 4 (Systems)**: C, C++, Rust
 - **Homework 5 (Concurrency)**: Go
 
