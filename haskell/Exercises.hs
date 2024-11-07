@@ -41,10 +41,13 @@ powers base = map (base^) [0..]
 
 meaningfulLineCount :: FilePath -> IO Int
 meaningfulLineCount path = do
-    contents <- readFile path
-    return $ length $ filter meaningfulLineCount $ lines contents
-    where
-      meaningfulLineCount line = not (all isSpace line) && not ("--" `isPrefixOf` line) 
+    document <- readFile path
+    let whiteSpace = all isSpace
+        trimStart = dropWhile isSpace
+        isMeaningful line = 
+            not (whiteSpace line) &&
+            not ("#" `isPrefixOf` (trimStart line))
+    return $ length $ filter isMeaningful $ lines document
 
 
 data Shape 
@@ -89,10 +92,6 @@ contains value (Node nodeValue left right)
 instance (Show a) => Show (BST a) where
   show :: Show a => BST a -> String
   show Empty = "()"
-  show (Node value left right) = 
-    let leftStr = show left
-        rightStr = show right
-    in  if leftStr == "()" && rightStr == "()"
-        then show value
-        else "(" ++ show left ++ show value ++ show right ++ ")" 
-      
+  show (Node x left right) =
+        let full = "(" ++ show left ++ show x ++ show right ++ ")" in
+        unpack $ replace (pack "()") (pack "") (pack full)

@@ -22,7 +22,12 @@ Author: Ahtziri Gutierrez
 - Q4 (Quaternion): This problem, using either a Java record, Kotlin data class, or Swift struct, contructed, added, multiplied, returned a coefficients array, returned the conjugate, and produced a string representation. 
 - Q5 (binary search tree): This problem used a sealed class/interface for Java and Kotlin, and an indirect enum for Swift. It supported an element count, insertion, and lookup of nodes. 
 
-- **Homework 3 (Theory)**: TypeScript, OCaml, Haskell
+**Homework 3 (Theory)**: TypeScript, OCaml, Haskell
+
+- Q1 (first then lower case): This function takes in either a list (OCaml and Haskell) or an array (TypeScript) a, a predicate p, and a function f, returning the first element of a that satisfies p.
+- Q2 (power generator): This function implements an infinite sequence of powers of base b. 
+- Q3 (meaningful line count): This function returns the number of text lines from a text file that are neither empty, made up of whitespace, or whose first character is #. 
+- Q4 (binary search tree): This function produces a tree supporting insertion, lookup, count, inorder traversal, and string description (TypeScript and Haskell only).
 
 
 - **Homework 4 (Systems)**: C, C++, Rust
