@@ -30,7 +30,9 @@ Author: Ahtziri Gutierrez
 - Q4 (binary search tree): This function produces a tree supporting insertion, lookup, count, inorder traversal, and string description (TypeScript and Haskell only).
 
 
-- **Homework 4 (Systems)**: C, C++, Rust
+**Homework 4 (Systems)**: C, C++, Rust
+- All three languages implemented the Stack data stucture. 
+
 - **Homework 5 (Concurrency)**: Go
 
 
