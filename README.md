@@ -33,7 +33,7 @@ Author: Ahtziri Gutierrez
 **Homework 4 (Systems)**: C, C++, Rust
 - All three languages implemented the Stack data stucture. 
 
-- **Homework 5 (Concurrency)**: Go
+**Homework 5 (Concurrency)**: Go
 
 
 ## The Test Suites
