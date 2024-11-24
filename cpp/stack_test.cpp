@@ -109,7 +109,7 @@ int main() {
     // cout << ss.top;
     // cout << ss.capacity;
     // cout << ss.elements;
-    // ss.reallocate(128);
+    //ss.reallocate(128);
 
     printf("\n%d passed, %d failed\n", passed, failed);
     return 0;
