@@ -34,7 +34,7 @@ Author: Ahtziri Gutierrez
 - All three languages implemented the Stack data stucture. 
 
 **Homework 5 (Concurrency)**: Go
-- Restaurant, concurrency simulation with cooks, a waiter, and customers. 
+- Concurrency, restaurant simulation with cooks, a waiter, and customers. 
 
 
 ## The Test Suites
